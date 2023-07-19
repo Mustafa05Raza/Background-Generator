@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Back-Ground Generator</title>
+    <style>
+
+        body{
+            background:linear-gradient(to right , rgb(247, 3, 43),skyblue);
+        }
+        div{
+            height: 96vh;
+            display: flex;
+            justify-content: center;
+            align-items:center;
+            /* border:2px solid fuchsia; */
+        }
+        .color1 , .color2{
+          margin:15px;
+       /* border-radius: 10px; */
+        }
+    </style>
+</head>
+<body id="gradient">
+    <div>
+    <input type="color" class="color1" id="c1">
+    <input type="color" class="color2" id="c2">
+    </div>
+
+
+    <script src="bggenerator.js">
+
+    </script>
+</body>
+</html>
